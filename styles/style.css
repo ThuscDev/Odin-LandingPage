@@ -78,8 +78,15 @@
 }
 
 .infoImage {
-    max-width: 150px;
+    max-width: 200px;
     max-height: auto;
     border-style: inset;
     border-color: #3882f6;
+    border-radius: 5%;
+}
+
+.infoPara {
+    padding: 10px;
+    align-self: center;
+    background-color: yellow;
 }
