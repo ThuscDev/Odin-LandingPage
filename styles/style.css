@@ -3,6 +3,7 @@
 }
 
 .headerContainer {
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,7 +12,6 @@
 .headerLogo {
     color: #f9faf8;
     font-size: 24px;
-    font-weight: 800;
     margin-left: 25px;
     display: flex;
 }
@@ -24,3 +24,25 @@
     display: flex;    
 }
 
+.awesomeContainer {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.acLeftSide h3 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.acLeftSide p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.acLeftSide button {
+    background-color: rgb(47, 47, 255);
+    color: white;
+    font-weight: bold;
+}
