@@ -27,7 +27,7 @@
 .awesomeContainer {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    flex-flow: column wrap;
+    justify-content: space-evenly;
 }
 
 .acLeftSide h3 {
@@ -45,4 +45,15 @@
     background-color: rgb(47, 47, 255);
     color: white;
     font-weight: bold;
+}
+
+.acRightSide {
+    padding-right: 20px;
+    margin: 0;
+}
+
+.imgBox {
+    max-width: 400px;
+    max-height: auto;
+    
 }
