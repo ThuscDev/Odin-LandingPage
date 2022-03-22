@@ -25,43 +25,38 @@
 }
 
 .header a {
-    display: flex;
     padding-right: 50px;
 }
 
 .Top {
     background-color: #1f2937;
-    
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
+    justify-content: center;
 }
+
 
 .Top h1 {
     font-size: 48px;
     font-weight: 800px;
     color: #f9faf8;
 
-    display: flex;
-    flex-direction: column;
 }
 
 .Top p {
     font-size: 18px;
     color: #e5e7eb;
-
-    display: flex;
-    flex-direction: column;
 }
 
 .topButton {
-    display: flex;
     align-self: flex-start;
 }
 
-.topImg {
-    display: flex;
-    align-self: flex-end;
-    justify-content: center;
-    max-width: 30%;
+.topImg {   
+    background-color: yellow
+}
+img {
+
+    max-width: 50%;
     max-height: 50%;
 }
